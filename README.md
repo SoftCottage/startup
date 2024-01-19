@@ -8,7 +8,7 @@
 
 # Design
 
-Image Here
+![IMG_C6CF918FFD6E-1 - Design concept for KleptoKing](https://github.com/SoftCottage/startup/assets/114368794/680717f6-226c-4645-8c7a-3ad77473c0b2)
 
 # Key features
 
