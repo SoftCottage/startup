@@ -4,7 +4,7 @@
 
 # Elevator pitch
 
-You want more. You will never get satisfied, because enough is never enough. So what do you do? You seize what you can take. You horde as much as you can in an attempt to collect them all. What you take is yours. Until it isn't. That's because what's your's can be their's. And what's their's can be your's. All you have to do is take it. Quickly. Nevermind what it is, nevermind what it represents, stake your claim. With over 200,000 words in the English language, you have a lot of words to type if you want to own them all before someone else does. Any word you type becomes yours. If someone else previously typed and owned that word, congrats you kleptomaniac, you've stolen it. Beware, they will know it is missing. They will know becuase we will immediately notify them. If they are on that is. So time your theivery and climb the up-to-date leaderboard to become the KleptoKing.
+  You want more. You will never get satisfied, because enough is never enough. So what do you do? You seize what you can take. You horde as much as you can in an attempt to collect them all. What you take is yours. Until it isn't. That's because what's your's can be their's. And what's their's can be your's. All you have to do is take it. Quickly. Nevermind what it is, nevermind what it represents, stake your claim. With over 200,000 words in the English language, you have a lot of words to type if you want to own them all before someone else does. Any word you type becomes yours. If someone else previously typed and owned that word, congrats you kleptomaniac, you've stolen it. Beware, they will know it is missing. They will know becuase we will immediately notify them. If they are on that is. So time your theivery and climb the up-to-date leaderboard to become the KleptoKing.
 
 # Design
 
@@ -12,12 +12,12 @@ Image Here
 
 # Key features
 
-Secure login over HTTPS
-Ability to type a word to claim it
-Ability to steal a word from another player
-Real time notifications of stolen words
-Storage of all currently owned words
-Leaderboard of top users displayed at all times
+* Secure login over HTTPS
+* Ability to type a word to claim it
+* Ability to steal a word from another player
+* Real time notifications of stolen words
+* Storage of all currently owned words
+* Leaderboard of top users displayed at all times
 
 # Technologies
 
