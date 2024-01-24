@@ -10,7 +10,7 @@ ssh -i [keyname] ubuntu@54.161.82.2
 
 Purchase a DNS at Route 53, .click is only $3\
 Hosting Zones allows you to map your DNS name to your IP Address\
-Record allows subdomains to reroute\
+Record allows subdomains to reroute
 
 http is unsecure, https requires security\
-Caddy requests a certificate from Let's Encrypt\
+Caddy requests a certificate from Let's Encrypt
