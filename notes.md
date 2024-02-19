@@ -107,8 +107,8 @@ The footer has a content division with a single span.
   </footer>
 </body>
 ```
-![HTML structure](htmlStructure.jpg)
 
+![HTML structure](htmlStructure.jpg)
 
 
 #HTML Input
