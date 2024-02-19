@@ -45,20 +45,7 @@ Every HTML element may have attributes. Attributes describe the specific details
   </body>
 </html>
 ```
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <main>
-      <h1>Hello world</h1>
-      <p class="introduction">
-        HTML welcomes you to the amazing world of
-        <span class="topic">web programming</span>.
-      </p>
-      <p class="question">What will this mean to you?</p>
-      <p class="assignment">Learn more <a href="instruction.html">here</a>.</p>
-    </main>
-  </body>
-</html>
+![Intro HTML Example](htmlIntroduction.png)
 
 
 
@@ -120,50 +107,7 @@ The footer has a content division with a single span.
   </footer>
 </body>
 ```
-<body>
-  <p>Body</p>
-  <header>
-    <p>Header - <span>Span</span></p>
-    <nav>
-      Navigation
-      <div>Div</div>
-      <div>Div</div>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <p>Section</p>
-      <ul>
-        <li>List</li>
-        <li>List</li>
-        <li>List</li>
-      </ul>
-    </section>
-    <section>
-      <p>Section</p>
-      <table>
-        <tr>
-          <th>Table</th>
-          <th>Table</th>
-          <th>Table</th>
-        </tr>
-        <tr>
-          <td>table</td>
-          <td>table</td>
-          <td>table</td>
-        </tr>
-      </table>
-    </section>
-    <aside>
-      <p>Aside</p>
-    </aside>
-  </main>
-
-  <footer>
-    <div>Footer - <span>Span</span></div>
-  </footer>
-</body>
+![HTML structure](htmlStructure.jpg)
 
 
 
