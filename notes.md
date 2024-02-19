@@ -15,12 +15,16 @@ Record allows subdomains to reroute
 http is unsecure, https requires security\
 Caddy requests a certificate from Let's Encrypt
 
+
+
 # HTML
 
 ## Elements
+
 HTML elements are represented with enclosing tags that may enclose other elements or text. For example, the paragraph element, and its associated tag (p), designate that the text is a structural paragraph of text. When we talk about tags we are referring to a delimited textual name that we use to designate the start and end of an HTML element as it appears in an HTML document. Tags are delimited with the less than (<) and greater than (>) symbols. A closing tag will also have a forward slash (/) before its name.
 
 ## Attributes
+
 Every HTML element may have attributes. Attributes describe the specific details of the element. For example, the id attribute gives a unique ID to the element so that you can distinguish it from other elements. The class attribute is another common element attribute that designates the element as being classified into a named group of elements. Attributes are written inside the element tag with a name followed by an optional value. You can use either single quotes (') or double quotes (") to delimit attribute values.
 
 ## HTML Example
@@ -55,6 +59,8 @@ Every HTML element may have attributes. Attributes describe the specific details
     </main>
   </body>
 </html>
+
+
 
 # HTML Structure
 
@@ -158,3 +164,45 @@ The footer has a content division with a single span.
     <div>Footer - <span>Span</span></div>
   </footer>
 </body>
+
+
+
+#HTML Input
+
+## Form element
+
+| Element    | Meaning                          | Example                                        |
+| ---------- | -------------------------------- | ---------------------------------------------- |
+| `form`     | Input container and submission   | `<form action="form.html" method="post">`      |
+| `fieldset` | Labeled input grouping           | `<fieldset> ... </fieldset>`                   |
+| `input`    | Multiple types of user input     | `<input type="" />`                            |
+| `select`   | Selection dropdown               | `<select><option>1</option></select>`          |
+| `optgroup` | Grouped selection dropdown       | `<optgroup><option>1</option></optgroup>`      |
+| `option`   | Selection option                 | `<option selected>option2</option>`            |
+| `textarea` | Multiline text input             | `<textarea></textarea>`                        |
+| `label`    | Individual input label           | `<label for="range">Range: </label>`           |
+| `output`   | Output of input                  | `<output for="range">0</output>`               |
+| `meter`    | Display value with a known range | `<meter min="0" max="100" value="50"></meter>` |
+
+## Input element
+
+The input element represents many different input types. You set the type of input with the `type` attribute. There are several different types to choose from. This includes different flavors of textual, numeric, date, and color inputs.
+
+| Type           | Meaning                           |
+| -------------- | --------------------------------- |
+| text           | Single line textual value         |
+| password       | Obscured password                 |
+| email          | Email address                     |
+| tel            | Telephone number                  |
+| url            | URL address                       |
+| number         | Numerical value                   |
+| checkbox       | Inclusive selection               |
+| radio          | Exclusive selection               |
+| range          | Range limited number              |
+| date           | Year, month, day                  |
+| datetime-local | Date and time                     |
+| month          | Year, month                       |
+| week           | Week of year                      |
+| color          | Color                             |
+| file           | Local file                        |
+| submit         | button to trigger form submission |
