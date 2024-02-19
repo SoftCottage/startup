@@ -72,7 +72,7 @@ The main contains multiple sections that contain either an unordered list (ul) o
 
 The footer has a content division with a single span.
 
-## HTML Structure Example
+## Structure Example
 
 ```
 <body>
