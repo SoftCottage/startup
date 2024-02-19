@@ -222,7 +222,8 @@ In order to support accessibility, you should also include an `alt` attribute th
 <img alt="mountain landscape" src=["https://uploads.dailydot.com/2018/07/yoda-star-wars-meme.jpg?auto=compress&fm=pjpg"] />
 ```
 
-![mountain landscape][https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y]
+![yoda-star-wars-meme](https://github.com/SoftCottage/startup/assets/114368794/9ca62c35-89ef-43a4-800e-9a87374c4ca5)
+
 
 ### Audio
 
@@ -248,4 +249,5 @@ To include a video in your content you use the `video` element and specify the `
 </video>
 ```
 
-![HTML video][https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y]
+https://github.com/SoftCottage/startup/assets/114368794/0809ec99-da8d-447a-a7bd-d8c35aefb7d4
+
