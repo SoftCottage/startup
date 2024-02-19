@@ -219,10 +219,10 @@ To include an image in your content you use the `img` element and specify the `s
 In order to support accessibility, you should also include an `alt` attribute that describes the image. A full img element would look like the following.
 
 ```html
-<img alt="mountain landscape" src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg" />
+<img alt="mountain landscape" src=["https://uploads.dailydot.com/2018/07/yoda-star-wars-meme.jpg?auto=compress&fm=pjpg"] />
 ```
 
-![mountain landscape](htmlImage.jpg)
+![mountain landscape](https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y)
 
 ### Audio
 
@@ -244,8 +244,8 @@ To include a video in your content you use the `video` element and specify the `
 
 ```html
 <video controls width="300" crossorigin="anonymous">
-  <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+  <source src="[https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y]" />
 </video>
 ```
 
-![HTML video](htmlVideoImg.jpg)
+![HTML video](https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y)
