@@ -167,7 +167,7 @@ The footer has a content division with a single span.
 </body>
 
 
-#HTML Input
+# HTML Input
 
 ## Form element
 
@@ -206,3 +206,46 @@ The input element represents many different input types. You set the type of inp
 | color          | Color                             |
 | file           | Local file                        |
 | submit         | button to trigger form submission |
+
+
+
+# HTML Media
+
+The HTML elements that represent media include `img`, `audio`, `video`, `svg`, and `canvas`. The `img`, `audio`, and `video` elements are all simple references to an external file, but `svg` and `canvas` both contain the code to render a visual image that can even be animated.
+
+### Image
+
+To include an image in your content you use the `img` element and specify the `src` attribute with the URL to the source image.
+In order to support accessibility, you should also include an `alt` attribute that describes the image. A full img element would look like the following.
+
+```html
+<img alt="mountain landscape" src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg" />
+```
+
+![mountain landscape](htmlImage.jpg)
+
+### Audio
+
+To include an audio file in your content you use the `audio` element and specify the `src` attribute with the URL to the source audio file. You can include the `controls` attribute if you want the user to be able to control the audio playback. If you do not display the controls then there is no visual representation of the audio in the rendered page. The `autoplay` attribute starts the audio playing as soon as the audio file is loaded, and the `loop` attribute keeps it playing over and over.
+
+⚠ Note that automatically playing audio is strongly discouraged unless you provide a way for the user to opt-in to that behavior.
+
+```html
+<audio controls src="testAudio.mp3"></audio>
+```
+
+![Html Audio](htmlAudioImg.jpg)
+
+### Video
+
+To include a video in your content you use the `video` element and specify the `src` attribute with the URL to the source video. Like the audio element you can include the `controls` or `autoplay` attributes.
+
+⚠ Note that you may need to include the `crossorigin="anonymous"` attribute if you are requesting files from a different domain than the one serving your content.
+
+```html
+<video controls width="300" crossorigin="anonymous">
+  <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+</video>
+```
+
+![HTML video](htmlVideoImg.jpg)
