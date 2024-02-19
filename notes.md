@@ -17,6 +17,23 @@ Caddy requests a certificate from Let's Encrypt
 
 # HTML Structure Example
 
+```
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <main>
+      <h1>Hello world</h1>
+      <p class="introduction">
+        HTML welcomes you to the amazing world of
+        <span class="topic">web programming</span>.
+      </p>
+      <p class="question">What will this mean to you?</p>
+      <p class="assignment">Learn more <a href="instruction.html">here</a>.</p>
+    </main>
+  </body>
+</html>
+```
+
 <!DOCTYPE html>
 <html lang="en">
   <body>
