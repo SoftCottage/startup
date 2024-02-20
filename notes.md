@@ -255,7 +255,8 @@ https://github.com/SoftCottage/startup/assets/114368794/0809ec99-da8d-447a-a7bd-
 
 # Simon Deployment
 
-Simon is deployed an accessible at simon.kleptoking.click
+Simon is deployed and accessible at simon.kleptoking.click
+
 Deploy via 
 ```
 ./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
