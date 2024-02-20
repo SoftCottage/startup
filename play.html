@@ -27,23 +27,23 @@
       </header>
 
     <main>
-        <section aria-labelledby="player-info-title">
-            <div id="player-info-title" class="player-info">
-                Player:
-                <span class="player-name">Player Username</span>
-            </div>
-        </section>
         
-        <section aria-labelledby="game-notifications-title">
-            <h2 id="game-notifications-title" class="visually-hidden">Game Notifications</h2>
-            <ul class="notifications-list">
-                <li>P_Nelly stole a word</li>
-                <li>lee_jensen260 stole a word</li>
-                <li>dallin63637 stole the lead with 213 words!</li>
-                <li>P_Nelly stole "heart" from you!</li>
-                <li>You stole "heart" from P-Nelly</li>
-            </ul>
-        </section>
+        <!-- Player info-->
+        <div id="player-info-title">
+            Player:
+            <span class="player-name">Player Username</span>
+        </div>
+        
+        <!-- Web Socket game notifications-->
+        <h2 id="game-notifications-title">Game Notifications</h2>
+        <ul class="notifications-list">
+            <li>P_Nelly stole a word</li>
+            <li>lee_jensen260 stole a word</li>
+            <li>dallin63637 stole the lead with 213 words!</li>
+            <li>P_Nelly stole "heart" from you!</li>
+            <li>You stole "heart" from P-Nelly</li>
+        </ul>
+        
         
 
       <!-- More formatting with old style HTML -->
@@ -99,6 +99,7 @@
 
       <br />
 
+      <!-- Main interaction - type words to steal them-->  
       <div>
         <label for="steal">Steal:</label>
         <input type="text" id="steal" placeholder="type word and press enter to steal" />
@@ -106,7 +107,15 @@
 
       <br />
 
-
+        <!-- Word bank to keep track of words you have-->
+        <h2 id="game-notifications-title">Word Bank</h2>
+        <ul class="notifications-list">
+            <li>heart</li>
+            <li>school</li>
+            <li>tractor</li>
+            <li>perilous</li>
+            <li>cereal</li>
+        </ul>
 
       
     </main>
