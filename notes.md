@@ -253,3 +253,10 @@ To include a video in your content you use the `video` element and specify the `
 
 https://github.com/SoftCottage/startup/assets/114368794/0809ec99-da8d-447a-a7bd-d8c35aefb7d4
 
+# Simon Deployment
+
+Simon is deployed an accessible at simon.kleptoking.click
+Deploy via 
+```
+./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
+```
