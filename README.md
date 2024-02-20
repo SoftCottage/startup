@@ -32,3 +32,20 @@
 * DB/Login - Store users, words and placement in database. Register and login users. Credentials securely stored in database. Can't claimn words unless authenticated.
 * WebSocket - As each user claims words, their progress is broadcast to other players. If a word you own is stolen you are privately notified 
 * React - Application ported to use the React web framework.
+
+#HTML Deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+HTML pages - Three HTML pages:
+  - Home page with login
+  - Play page
+  - About page
+Tags - Used to make a table for the Leaderboard, as well as separate the headers (nav), main and footer
+Links - The header on each page links to all pages
+Text - All of the words make up the text of this application
+3rd Party - Word of the day will use 3rd party service call. Current placeholder
+Images - The about page will have a different image each day with along with the word of the day. Current placeholder
+Login - Login placeholder, username and password
+Database - Input box for stealing words from the database. You also have your own Wordbank database of words. 
+WebSocket - real time notifications of stolen words and leaderboard
