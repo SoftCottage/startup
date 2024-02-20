@@ -33,7 +33,7 @@
 * WebSocket - As each user claims words, their progress is broadcast to other players. If a word you own is stolen you are privately notified 
 * React - Application ported to use the React web framework.
 
-#HTML Deliverable
+# HTML Deliverable
 
 For this deliverable I built out the structure of my application using HTML.
 
