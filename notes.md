@@ -7,6 +7,8 @@ Elastic IP address associates the same address with the new server whenever you 
 URL:
 http://54.161.82.2
 
+https://kleptoking.click
+
 Access Server:
 ssh -i [keyname] ubuntu@54.161.82.2
 
