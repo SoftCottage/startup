@@ -5,7 +5,7 @@ When building out the project, don't forget to Stage, Commit, and Push to Git to
 Elastic IP address associates the same address with the new server whenever you stop and start it.
 
 URL:
-http://54.161.82.2
+http://192.168.0.1
 
 https://kleptoking.click
 
