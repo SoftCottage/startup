@@ -25,7 +25,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Speak again the ancient oaths, and return to men the Shards they once lost. The Knights Radiant must stand again.
+Speak again the ancient oaths, and return to men the Shards they once lost. The Knights Radiant must stand again. Answer each question truthfully to find out which Order you belong to, and what spren is looking for you.
 
 ### Design
 
