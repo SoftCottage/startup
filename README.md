@@ -53,21 +53,21 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - 3 html pages, index play, and about
+- [x] **Proper HTML element usage** - I used body, nav, main, header, and footer
+- [x] **Links** - Links in the header of each page
+- [x] **Text** - Text for description and interaction with the game
+- [x] **3rd party API placeholder** - 3rd party "Word of the day" placeholder on about page
+- [x] **Images** - See Yoda on about page
+- [x] **Login placeholder** - Found on index page
+- [x] **DB data placeholder** - represented by "Word Bank" on play page
+- [x] **WebSocket placeholder** - Game Notifications on play page
 
 ## 🚀 CSS deliverable
 
