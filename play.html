@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play</title>
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+<!-- Use header, main, and footer elements to give semantic structure -->
+<header>
+    <h1>KleptoKing<sup>&reg;</sup></h1>
+
+    <!-- Navigation elements -->
+    <nav>
+        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+        <menu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a href="about.html">About</a></li>
+        </menu>
+    </nav>
+
+    <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+    <hr />
+</header>
+
+<main>
+
+    <!-- Player info-->
+    <div id="player-info-title">
+        Player:
+        <span class="player-name">Player Username</span>
+    </div>
+
+    <!-- Web Socket game notifications-->
+    <h2 id="game-notifications-title">Game Notifications</h2>
+    <ul class="notifications-list">
+        <li>P_Nelly stole a word</li>
+        <li>lee_jensen260 stole a word</li>
+        <li>dallin63637 stole the lead with 213 words!</li>
+        <li>P_Nelly stole "heart" from you!</li>
+        <li>You stole "heart" from P-Nelly</li>
+    </ul>
+
+
+
+    <!-- More formatting with old style HTML -->
+    <br />
+
+    <div class="leaderboard-container">
+        <h2>Leaderboard</h2>
+        <div class="current-player-highlight">Your Position: 53</div>
+        <table class="leaderboard">
+            <thead>
+            <tr>
+                <th>Position</th>
+                <th>Player</th>
+                <th>Words</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="player-position">
+                <td>1</td>
+                <td>dallin63637</td>
+                <td>213 words</td>
+            </tr>
+            <tr class="player-position">
+                <td>2</td>
+                <td>P_Nelly</td>
+                <td>212 words</td>
+            </tr>
+            <tr class="player-position">
+                <td>3</td>
+                <td>Cosmo887</td>
+                <td>198 words</td>
+            </tr>
+            <tr class="player-position">
+                <td>4</td>
+                <td>lee_jensen260</td>
+                <td>177 words</td>
+            </tr>
+            <tr class="player-position">
+                <td>5</td>
+                <td>WilkMilk</td>
+                <td>148 words</td>
+            </tr>
+            <!-- Add more players here -->
+            <tr class="player-position highlight">
+                <td>53</td>
+                <td>YourUsername</td>
+                <td>14 words</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <br />
+
+    <!-- Main interaction - type words to steal them-->
+    <div>
+        <label for="steal">Steal:</label>
+        <input type="text" id="steal" placeholder="type word and press enter to steal" />
+    </div>
+
+    <br />
+
+    <!-- Word bank to keep track of words you have-->
+    <h2 id="game-notifications-title">Word Bank</h2>
+    <ul class="notifications-list">
+        <li>heart</li>
+        <li>school</li>
+        <li>tractor</li>
+        <li>perilous</li>
+        <li>cereal</li>
+    </ul>
+
+
+</main>
+
+<footer>
+    <hr />
+    <span class="text-reset">Kaden Hardcastle</span>
+    <br />
+    <a href="https://github.com/SoftCottage/startup">GitHub</a>
+</footer>
+</body>
+</html>
