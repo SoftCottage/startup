@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, p, menu, form, input, button, table, th, td, ul, li, img, div {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav menu li {
+    display: inline;
+}
+
+nav menu a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2rem;
+}
+
+nav menu a:hover {
+    color: #ffaa00;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.picture-box {
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.picture-box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: justify;
+    padding: 10px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+#word-of-the-day {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #1e1e1e;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.1);
+}
