@@ -1,7 +1,8 @@
 const cookieParser = require('cookie-parser');
 const bcrypt = require('bcryptjs');
 const express = require('express');
-const uuid = require('uuid');
+const { v4: uuidv4 } = require('uuid');
+
 
 const app = express();
 const authCookieName = 'token';
@@ -104,7 +105,7 @@ async function createUser(email, password) {
   const user = {
     email,
     password: passwordHash,
-    token: uuid.v4(),
+    token: uuidv4(),
   };
 
   users.push(user);
