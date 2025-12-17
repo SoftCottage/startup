@@ -92,18 +92,18 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **All functionality implemented or mocked out** - Complete
+- [x] **Hooks** - Complete
 
 ## 🚀 Service deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Node.js/Express HTTP service** - I did not complete this part of the deliverable.
-- [ ] **Static middleware for frontend** - I did not complete this part of the deliverable.
-- [ ] **Calls to third party endpoints** - I did not complete this part of the deliverable.
-- [ ] **Backend service endpoints** - I did not complete this part of the deliverable.
-- [ ] **Frontend calls service endpoints** - I did not complete this part of the deliverable.
+- [x] **Node.js/Express HTTP service** - Express routing, Json Middleware, Cookie parsing
+- [x] **Static middleware for frontend** - Uses expresss, Correct SPA routing
+- [x] **Calls to third party endpoints** - Quote and picture called from external API
+- [x] **Backend service endpoints** - Create, Login, Logout, Scores
+- [x] **Frontend calls service endpoints** - Create, Login, Logout, Scores
 
 ## 🚀 DB/Login deliverable
 
