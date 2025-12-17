@@ -43,11 +43,6 @@ export function About() {
           possible in exactly one second. The rules are simple, but mastering speed and timing takes practice.
         </p>
 
-        <p>
-          OneSecond is an original educational project inspired by classic reaction and timing games. It is designed
-          for non-commercial, instructional use only.
-        </p>
-
         <div className="quote-box bg-light text-dark mt-4">
           <p className="quote">{quote}</p>
           <p className="author">{quoteAuthor}</p>

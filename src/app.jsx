@@ -78,14 +78,15 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
 
-        <footer className='bg-dark text-muted'>
-          <div className='container-fluid'>
-            <span className='text-reset'>Kaden Hardcastle</span>
-            <a className='text-reset ms-3' href='https://github.com/SoftCottage/startup'>
+        <footer className="bg-dark mt-auto">
+          <div className="container-fluid">
+            <span>Kaden Hardcastle</span>
+            <a className="ms-3" href="https://github.com/SoftCottage/startup">
               GitHub
             </a>
           </div>
         </footer>
+
       </div>
     </BrowserRouter>
   );
