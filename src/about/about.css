@@ -1,0 +1,43 @@
+.picture-box {
+  max-width: 420px;
+  margin: 0 auto 1.75em auto;
+  padding: 1.25em;
+  background-color: #111318;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border: 1px solid #1f2933;
+}
+
+.picture-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.quote-box {
+  margin-top: 1.75em;
+  padding: 1.25em;
+  border-radius: 16px;
+  background-color: #0e0f13;
+  border: 1px solid #1f2933;
+  color: #c7cbd1;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 0.6em;
+  color: #9ca3af;
+}
+
+.author {
+  font-weight: 600;
+  text-align: right;
+  color: #e6e8eb;
+  letter-spacing: 0.03em;
+}
+
+.author::before {
+  content: "— ";
+}

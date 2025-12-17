@@ -1,0 +1,73 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card {
+    background-color: #111318;
+    padding: 2.5em 2em;
+    border-radius: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid #1f2933;
+  }
+  
+  .login-card h1 {
+    color: #e6e8eb;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+  }
+  
+  .login-card p {
+    color: #9ca3af;
+    margin-bottom: 1.5em;
+  }
+  
+  .input-group-text {
+    background-color: #1a1d24;
+    color: #9ca3af;
+    border: 1px solid #1f2933;
+  }
+  
+  .form-control {
+    background-color: #0e0f13;
+    color: #e6e8eb;
+    border: 1px solid #1f2933;
+  }
+  
+  .form-control::placeholder {
+    color: #6b7078;
+  }
+  
+  .form-control:focus {
+    background-color: #0e0f13;
+    color: #e6e8eb;
+    border-color: #4b5563;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    background-color: #1f2933;
+    border: 1px solid #4b5563;
+    color: #e6e8eb;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2a2f3a;
+    border-color: #6b7280;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #4b5563;
+    color: #9ca3af;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #1a1d24;
+    color: #e6e8eb;
+  }
+  

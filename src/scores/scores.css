@@ -1,0 +1,40 @@
+table {
+  margin: 0 auto;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #1f2933;
+  background-color: #111318;
+}
+
+thead {
+  background-color: #0d0f14;
+  color: #e6e8eb;
+}
+
+tbody tr {
+  background-color: #111318;
+  transition: background-color 0.15s ease;
+}
+
+tbody tr:hover {
+  background-color: #1a1d24;
+}
+
+th,
+td {
+  padding: 0.75em 1em;
+  font-family: system-ui, sans-serif;
+  color: #c7cbd1;
+}
+
+td {
+  max-width: 40vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+td:nth-child(3) {
+  font-weight: 600;
+  color: #9ca3af;
+}
